@@ -18,7 +18,6 @@ assuntos .</p>
 
 ## Entendendo as anotomia de classes no java
 
-1. anotomia de classe 1 -
 nome de variavel : toda variavel deve ser escrita com letra minuscula, porem se for palavra composta apartir da segunda palavra comecera maiuscula ex: normal ano, composta anoFabricacao. \
 declaracao final de variavel: devemenos usar "final" numa variavel chamado brasil que e algo unico sera "final string BR = "brasil" ".</p>
 algumas variaveis: 
@@ -27,9 +26,5 @@ double PI = 3.14 representa numero numericos .</p>
 int estadosbr = 27 numeros inteiros.</p>
 declaracao valida de variaveis.</p>
 declaracao invalida de variaveis.</p>
-2. anotomia de classe 2 - 
-3. anotomia de classe 3 -
-4. anotomia de classe 4 - 
-5. anotomia de classe 5 -
-6. anotomia de classe 6 -
-
+usando, entendendo e modificando metodos. </p> 
+identacao em algoritmos.</p>

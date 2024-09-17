@@ -28,3 +28,13 @@ declaracao valida de variaveis.</p>
 declaracao invalida de variaveis.</p>
 usando, entendendo e modificando metodos. </p> 
 identacao em algoritmos.</p>
+
+## entendendo variaveis
+
+assuntos:
+Numeros inteiros e decimas. </p>
+Tipos logicos.</p>
+Caracter.</p>
+Objetos.</p>
+diferença entre variável e constante.</p>
+

@@ -1,18 +1,24 @@
-## Getting Started
+## O codigo ContaBanco
+import java.util.Scanner;
+public class contaTerminal {
+    public static void main(String[] args) throws Exception {
+        Scanner sc = new Scanner(System.in) ;
+       // TODO: conhecer e importar a classe Scanner
+       // exibir as messagens para nosso usuario 
+       // obter pela scanner os valores digitados pelo terminal 
+       //exibir a messagem conta criada 
+        int numero;
+        String agencia;
+        String nomeCliente;
+        double saldo=216.36;
+        System.out.println("qual o seu nome?");
+        nomeCliente = sc.nextLine();
+        System.out.println("qual é agencia");
+        agencia = sc.nextLine();
+        System.out.println("qual numero da conta");
+        numero = sc.nextInt();
+        System.out.println("Olá " +nomeCliente+ ", obrigado por criar uma conta em nosso banco, sua agência é " +agencia+ ", conta " +numero+ " e seu saldo" +saldo+ "já está disponível para saque");
+       System.out.println("seu saldo é de  "+saldo);
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    } 
+}

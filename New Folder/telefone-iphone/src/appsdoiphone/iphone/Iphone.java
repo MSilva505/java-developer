@@ -7,39 +7,55 @@ import appsdoiphone.reprodutormusical.ReprodutorMusical;
 
 public class Iphone implements NavegadorDeInternet,ReprodutorMusical,AparelhoTelefonico {
 
-     public void ligar (String numeroParaLigar){
-        System.out.println("ligando para o numero: "+ numeroParaLigar);
-    }
-      @Override
-    public void atendeu() {
-          System.out.println("voce atendeu!!");
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    /**
+     *
+     */
+    @Override
+    public void tocar() {
+        System.out.println("Reproduzindo música...");
     }
 
     @Override
-    public void correioDeVoz() {
-           System.out.println(" o numero que voce ligou caiu no correio de voz");
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void pausar() {
+        System.out.println("Música pausada.");
     }
-    public void exibirpagina (String pagina ){
-    System.out.println("exibindo a pagina de candidato para vaga: "+pagina);
-}  
-    public void adicionarNovaAba(){
-    System.out.println("estou adicionando uma nova aba");
-}
-    public void atualizarPagina(){
-    System.out.println(" atualizando a pagina");
-}
-    public void tocar(){
-        System.out.println("está tocando uma musica ");
+
+    @Override
+    public void selecionarMusica(String musica) {
+        System.out.println("Selecionando música: " + musica);
+    }
+
+    // Métodos do Aparelho Telefônico
+    @Override
+    public void ligar(String numero) {
+        System.out.println("Ligando para " + numero + "...");
+    }
+
+    @Override
+    public void atender() {
+        System.out.println("Atendendo chamada.");
+    }
+
+    @Override
+    public void iniciarCorreioVoz() {
+        System.out.println("Iniciando correio de voz...");
+    }
+
+    // Métodos do Navegador na Internet
+    @Override
+    public void exibirPagina(String url) {
+        System.out.println("Exibindo página: " + url);
+    }
+
+    @Override
+    public void adicionarNovaAba() {
+        System.out.println("Nova aba adicionada.");
+    }
+
+    @Override
+    public void atualizarPagina() {
+        System.out.println("Página atualizada.");
     }
     
-    public void pausar(){
-        System.out.println(" pausou a musica que estava tocando");
     }
-    
-    public void selecionarMusica(String musicaescolhida){ 
-        System.out.println(" a musica que voce escolheu foi: "+ musicaescolhida);
-        
-    }
-}
+

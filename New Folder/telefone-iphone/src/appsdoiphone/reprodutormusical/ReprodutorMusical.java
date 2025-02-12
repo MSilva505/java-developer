@@ -2,8 +2,7 @@
 package appsdoiphone.reprodutormusical;
 
 public interface ReprodutorMusical {
-     
-    public void tocar();
-    public void pausar();
-    public void selecionarMusica(String musicaescolhida);
+    void tocar();
+    void pausar();
+    void selecionarMusica(String musica);
 }

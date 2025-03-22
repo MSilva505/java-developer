@@ -10,6 +10,15 @@
 <project name="desafio-de-banco" default="default" basedir=".">
     <description>Builds, tests, and runs the project desafio-de-banco.</description>
     <import file="nbproject/build-impl.xml"/>
+
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.32</version> <!-- Ou a versão que você preferir -->
+    <scope>provided</scope>
+</dependency>
+
+
     <!--
 
     There exist several targets which are by default empty and which can be 
@@ -68,6 +77,7 @@
     the compile target as the regular run target does. Again, for a list of available 
     properties which you can use, check the target you are overriding in the
     nbproject/build-impl.xml file. 
+
 
     -->
 </project>
